@@ -1,0 +1,22 @@
+.character {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  flex-flow: row wrap;
+  row-gap: 20px;
+  padding-top: 12px;
+}
+
+.character .imagen {
+  border-color: black;
+  border: 1px solid;
+  margin: 12px;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.light-mode {
+  background-color: white
+}
